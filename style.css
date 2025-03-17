@@ -1,0 +1,50 @@
+.main{
+    height: 1050px;
+    width: 800px;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+    border-radius: 20px;
+}
+.left{
+    height: 100%;
+    width: 32%;
+    border: 2px solid black;
+    background-color: rgb(54, 52, 52);
+    border-radius: 20px 0px 0px 20px;
+}
+.right{
+    height: 100%;
+    width: 68%;
+    border: 2px solid black;
+    border-radius: 0px 20px 20px 0px;
+}
+.image{
+    border: 2px solid white;
+    border-radius: 100%;
+    margin: 20px;
+    margin-bottom: 0;
+}
+.white{
+    color: white;
+    margin: 1px;
+    text-align: center;
+}
+.pos{
+    color: white;
+    margin: 1px;
+    text-align: left;
+}
+.head{
+    display:inline-block;
+    background-color: rgb(54, 52, 52);
+    color: white;
+    padding: 8px;
+    border-radius: 40%;
+    margin: 10px;
+}
+.state{
+    text-align: left;
+    padding: 5px;
+    margin: 10px;
+}
